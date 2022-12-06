@@ -13,8 +13,7 @@
 
     <body class="container">
         <div class="container">
-            <div class="row">
-                <div class="col-md-4"></div>
+            <div class="row d-flex justify-content-center">
                 <div class="col-md-4">
                     <h3>Lista de Doctores</h3>
                     <a class="btn btn-primary" href="./agregar.htm">Nuevo Registro</a>
@@ -41,8 +40,7 @@
                          </c:forEach>
                      </table>
                     <a class="btn btn-primary" href="./../links.htm">Menu Principal</a>
-                </div>
-                <div class="col-md-4"></div>                
+                </div>              
             </div>
         </div>
     </body>
